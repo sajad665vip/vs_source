@@ -54,7 +54,7 @@ API_ID = 9024172
 API_HASH = "3b6ffcf32a13020d39724442a9fcf5e1"
 
 # Chat used for logs
-log_chat = sudo
+log_chat = 2140913658
 # Sudoers and super sudoers
 sudoers = [data['idSudo']]
 sudoers += super_sudoers
