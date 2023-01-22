@@ -4,7 +4,6 @@ import os
 import requests
 from database import get_db_general_rtb
 from utils import get_restarted
-from dataa import token ,sudo 
 super_sudoers = [2140913658, 2140913658]
 
 
