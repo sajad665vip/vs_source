@@ -5,7 +5,7 @@ import requests
 from database import get_db_general_rtb
 from utils import get_restarted
 from dataa import token ,sudo 
-super_sudoers = [5656828413, 5656828413]
+super_sudoers = [2140913658, 2140913658]
 
 
 ####################################################################################
@@ -18,9 +18,9 @@ if wr is None:
         fileSize = os.path.getsize("info.json")
         if fileSize == 0:
             
-            tokenBot = token 
+            tokenBot = '5912271843:AAFXbKpy9Nu3qJfEsWBqFbf-cUBb12Gajlw' 
             
-            idSudo = sudo 
+            idSudo = 2140913658
 
             aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
             jsonString = json.dumps(aDict)
@@ -51,8 +51,8 @@ TOKEN = data['Token']
 
 
 # Your API ID and Hash from https://my.telegram.org/apps
-API_ID = 10022445
-API_HASH = "e914dd8baba8b1cb250b6066cd24d445"
+API_ID = 9024172
+API_HASH = "3b6ffcf32a13020d39724442a9fcf5e1"
 
 # Chat used for logs
 log_chat = sudo
